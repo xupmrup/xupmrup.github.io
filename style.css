@@ -1,0 +1,159 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; 
+    color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: url('000084110029.jpg') center/cover no-repeat;
+    margin: 0 auto 20px;
+  }
+  
+  .name {
+    font-size: 2.5em;
+    color: #ffffff;
+  }
+  
+  .tagline {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+  
+.portfolio .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .project {
+    background: #2a2a2a;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+
+  .project:hover {
+    transform: scale(1.05);
+  }
+  
+  .project h3 {
+    margin: 0 0 10px;
+    color: #f0f0f0;
+  }
+  
+  .project p {
+    color: #cccccc;
+  }
+  
+
+  .detail-content {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .straightphoto-large {
+    display: block;         
+    margin: 20px auto;      
+    max-width: 90%;        
+    width: 50%;          
+    border-radius: 10px;    
+  }
+
+  .horizontalphoto-large {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .backButton {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #f5f5f5;
+    text-decoration: none;
+    background: #444;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .backButton:hover {
+    background: #666;
+  }
+
+  footer.contact {
+  background-color: #333; 
+  color: #f5f5f5; 
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 50px; 
+  }
+  
+  footer.contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  footer.contact p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  footer.contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer.contact li {
+    margin: 10px 0;
+  }
+  
+  footer.contact a {
+    color: #d5d5d5;
+    text-decoration: none;
+  }
+  
+  footer.contact a:hover {
+    text-decoration: underline; 
+  }
+  
+  
